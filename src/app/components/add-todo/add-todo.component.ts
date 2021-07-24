@@ -31,7 +31,7 @@ export class AddTodoComponent implements OnInit {
   }
 
   addTodo(){
-    const todo = new Todo(this.generateUUID(), this.text, false);
+    const todo = new Todo(this.text, false);
 
     this.addTodoEvent.emit(todo);
 

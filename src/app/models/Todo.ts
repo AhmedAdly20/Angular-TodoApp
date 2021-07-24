@@ -11,5 +11,5 @@
 // }
 
 export default class Todo {
-  constructor(public id: string, public text: string, public completed: boolean) {}
+  constructor(public title: string, public completed: boolean, public id: number = 0,) {}
 }
